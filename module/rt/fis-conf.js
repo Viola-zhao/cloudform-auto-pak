@@ -86,7 +86,8 @@ module.exports = function (webappRoot, entry_files) {
 				'ossupload':"../filesystem/ossupload",
 				'interface_file_impl':"../filesystem/interface.file.impl",
 				'interface_file':"../filesystem/interface.file",
-				'ueditor': "js/rt/ueditor/ueditor.all"
+				'ueditor': "js/rt/ueditor/ueditor.all",
+		                'bpm':"freebill/js/bpm"
         	},
             shim : {
 				dateutil: {
